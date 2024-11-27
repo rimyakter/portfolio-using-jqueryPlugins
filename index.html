@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Required Meta Tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title-->
+    <title>Portfolio-project</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon">
+    <!--Css Files-->
+    <link rel="stylesheet" href="vendors/css/uikit.min.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/query.css">
+</head>
+<body>
+    <!--START HEADER SECTION-->
+        <header id="hero" class="scrollify">
+            <nav uk-sticky="start: 400px; animation: uk-animation-slide-top">
+                <div class="row">
+                    <a href="#hero"> 
+                        <h2 class="logo">R<span>i</span>ad</h2>
+                    </a>
+                    <div class="menu-bar">
+                        <a onclick="openMenu()" href="#" class="nav-bar"><i class="fa-solid fa-bars"></i></a>
+                    </div>
+                        <div id="close-menu" class="overlay">
+                            <div class="close-btn">
+                                <a onclick="closeMenu()" href="#"><i class="fa-solid fa-circle-xmark"></i></a>
+                            </div>
+                            <ul class="overlay-content">
+                                <li><a onclick="closeMenu()" href="#hero">Home</a></li>
+                                <li><a onclick="closeMenu()" href="#about">About</a></li>
+                                <li><a onclick="closeMenu()" href="#process">process</a></li>
+                                <li><a onclick="closeMenu()" href="#experience">experience</a></li>
+                                <li><a onclick="closeMenu()" href="#portfolio">portfolio</a></li>
+                                <li><a onclick="closeMenu()" href="#testimonial">testimonial</a></li>
+                                <li><a onclick="closeMenu()" href="#contact">contact</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="hero-text-box">
+                    <h1 uk-scrollspy="cls:uk-animation-scale-down; repeat: true">Md<span><i class="fa-solid fa-circle-dot"></i></span>Riad<span><i class="fa-solid fa-circle-dot"></i></span>Hasan</h1>
+                    <p uk-scrollspy="cls:uk-animation-scale-down; repeat: true">#User Experience #Music #Creative Direction</p>
+                </div>
+                </div>
+                <div class="row down">
+                    <div class="down-icon">
+                        <a href="#about"><i class="fa-solid fa-chevron-down"></i></a>
+                    </div>
+                </div>
+        </header>
+    <!--END HEADER SECTION-->
+    <!--START ABOUT SECTION-->
+        <section id="about" class="scrollify">
+            <div class="row">
+                <div class="grid-about-container">
+                    <div class="grid-about-items" uk-scrollspy="cls:uk-animation-slide-left; repeat: true">
+                        <div class="about-photo">
+                            <img src="resources/img/about.jpg" alt="Pic">
+                        </div>
+                    </div>
+                    <div class="grid-about-items" uk-scrollspy="cls:uk-animation-slide-right; repeat: true">
+                        <h3>hi,i'm riad hasan experience web developer and designer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.
+                                <br><br>
+                            Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>
+                            <a href="#" class="btn btn-about">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+     <!--END ABOUT SECTION-->
+     <!--START PROCESS SECTION-->
+        <section id="process" class="scrollify">
+            <div class="row">
+                <div class="section-title">
+                <h4>My Working Process</h4>
+                <p>hi,i'm riad hasan experience web developer and designer</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="grid-process-container">
+                    <div class="grid-process-items" uk-scrollspy="cls:uk-animation-slide-bottom; repeat: true">
+                       <span class="process-icon"><i class="fa-solid fa-desktop"></i></span>
+                       <p class="process-text">Design</p>
+                    </div>
+                    <div class="grid-process-items" uk-scrollspy="cls:uk-animation-slide-top; repeat: true">
+                        <span class="process-icon"><i class="fa-solid fa-brush"></i></span>
+                        <p class="process-text">Devlopment</p>
+                     </div>
+                     <div class="grid-process-items" uk-scrollspy="cls:uk-animation-slide-bottom; repeat: true">
+                        <span class="process-icon"><i class="fa-solid fa-eye"></i></span>
+                        <p class="process-text">Testing</p>
+                     </div>
+                     <div class="grid-process-items" uk-scrollspy="cls:uk-animation-slide-top; repeat: true">
+                        <span class="process-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                        <p class="process-text">Launch</p>
+                     </div>
+                </div>
+            </div>
+        </section>
+     <!--END PROCESS SECTION-->
+     <!--START EXPERIENCE SECTION-->
+        <section id="experience" class="scrollify">
+            <div class="row">
+                <div class="grid-experience-container">
+                    <div class="grid-experience-items" uk-scrollspy="cls:uk-animation-slide-left; repeat: true">
+                        <h4>Work Experience</h4>
+                        <h3>Mad Max Design</h3>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                        <hr>
+                        <h3>Crazy Design</h3>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                    <div class="grid-experience-items" uk-scrollspy="cls:uk-animation-slide-right; repeat: true">
+                        <h4>Education</h4>
+                        <h3>Maddison University</h3>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                        <hr>
+                        <h3>Max Design & Art Institute</h3>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+      <!--END EXPERIENCE SECTION-->
+      <!--START PORTFOLIO SECTION-->
+        <section id="portfolio" class="scrollify">
+            <div class="row">
+                <div class="section-title">
+                    <h4>My Latest Works</h4>
+                    <p>hi,i'm riad hasan experience web developer and designer</p>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="data-filter">
+                        <button uk-scrollspy="cls:uk-animation-slide-bottom; repeat: true" type="button" data-filter="all">All</button>
+                        <button uk-scrollspy="cls:uk-animation-slide-top; repeat: true" type="button" data-filter=".web-design">Web design</button>
+                        <button uk-scrollspy="cls:uk-animation-slide-bottom; repeat: true" type="button" data-filter=".web-dev">web development</button>
+                        <button uk-scrollspy="cls:uk-animation-slide-top; repeat: true" type="button" data-filter=".wordpress">wordpress</button>
+                    </div>
+                <div uk-lightbox="animation: fade" class="grid-portfolio-container">
+                    <div class="grid-portfolio-items mix web-design">
+                        <a href="resources/img/p-1.jpg" data-caption="Web-design">
+                        <img src="resources/img/p-1.jpg" alt="portfolio" class="portfolio-pic">
+                        </a>
+                    </div>
+                    <div class="grid-portfolio-items mix web-dev">
+                        <a href="resources/img/p-2.jpg" data-caption="web-devlopment">
+                        <img src="resources/img/p-2.jpg" alt="portfolio" class="portfolio-pic">
+                        </a>
+                    </div>
+                    <div class="grid-portfolio-items mix web-design">
+                        <a href="resources/img/p-3.jpg" data-caption="Web-design">
+                        <img src="resources/img/p-3.jpg" alt="portfolio" class="portfolio-pic">
+                        </a>
+                    </div>
+                    <div class="grid-portfolio-items mix web-dev">
+                        <a href="resources/img/p-5.jpg" data-caption="web-devlopment">
+                        <img src="resources/img/p-5.jpg" alt="portfolio" class="portfolio-pic">
+                        </a>
+                    </div>
+                    <div class="grid-portfolio-items mix wordpress">
+                        <a href="resources/img/p-4.jpg" data-caption="wordpress">
+                        <img src="resources/img/p-4.jpg" alt="portfolio" class="portfolio-pic">
+                        </a>
+                    </div>
+                    <div class="grid-portfolio-items mix web-design">
+                        <a href="resources/img/p-6.jpg" data-caption="Web-design">
+                        <img src="resources/img/p-6.jpg" alt="portfolio" class="portfolio-pic">
+                        </a>
+                    </div>
+                    <div class="grid-portfolio-items mix wordpress">
+                        <a href="resources/img/p-7.jpg" data-caption="wordpress">
+                        <img src="resources/img/p-7.jpg" alt="portfolio" class="portfolio-pic">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+      <!--END PORTFOLIO SECTION-->
+      <!--START TESTIMONIAL SECTION-->
+        <section id="testimonial" class="scrollify">
+            <div class="row">
+                <div class="grid-testimonial-container">
+                    <div class="grid-testimonial-items">
+                        <div class="quote">
+                            <img src="resources/img/testimonial.png" alt="quote">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+                            <img src="resources/img/signature.png" alt="signature" class="signature">
+                        <h3>Deniel Croft</h3>
+                        <span>Creative Designer, Levy</span>
+                    </div>
+                    <div class="grid-testimonial-items"></div>
+                </div>
+            </div>
+        </section>
+      <!--END TESTIMONIAL SECTION-->
+      <!--START CONTACT SECTION-->
+        <section id="contact" class="scrollify">
+            <div class="row">
+                <div class="grid-contact-container">
+                    <div class="grid-contact-items" uk-scrollspy="cls:uk-animation-slide-left; repeat: true">
+                        <h4>Leave a message</h4>
+                        <div class="contact-form">
+                        <form action="#" method="post">
+                                <div class="single-contact-form">
+                                    <input type="text" placeholder="Name*" required>
+                                </div>
+                                <div class="single-contact-form">
+                                    <input type="email" placeholder="email*" required>
+                                </div>
+                                <div class="single-contact-form">
+                                    <input type="text" placeholder="subject*" required>
+                                </div>
+                                <textarea cols="30" rows="8" placeholder="Message*" required></textarea>
+                                <input type="submit" value="hire me" class="btn btn-contact">
+                        </form>
+                    </div>
+                    </div>
+                    <div class="grid-contact-items nested-grid-contact-container" uk-scrollspy="cls:uk-animation-slide-right; repeat: true">
+                        <div class="nested-grid-contact-items">
+                            <h4>Address</h4>
+                            <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+                        </div>
+                        <div class="nested-grid-contact-items">
+                            <h4>Phone</h4>
+                            <p>+880 174 037 6995
+                                <br>+880 191 448 6969</p>
+                        </div>
+                        <div class="nested-grid-contact-items">
+                            <h4>Web</h4>
+                            <p>Mail: quicksayed@gmail.com
+                                <br>Website: dribbble.com/alisayed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       <!--END CONTACT SECTION-->
+       <!--START FOOTER SECTION-->
+        <footer id="footer" class="scrollify">
+            <div class="social-icon">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+                <p class="copyright">Copyright: Ali Sayed, All Rights Reserved.</p>
+            </div>
+            <div class="to-top">
+                <a href="#hero" uk-totop></a>
+            </div>
+               
+        </footer>
+        <!--END FOOTER SECTION-->
+        
+    <!--Js Files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/565ce6125e.js" crossorigin="anonymous"></script>
+    <script src="vendors/js/jquery.scrollify.j"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="vendors/js/uikit.min.js"></script>
+    <script src="vendors/js/particles.min.js"></script>
+    <script src="vendors/js/app.js"></script>
+    <script src="resources/js/script.js"></script>
+    
+</body>
+</html>
